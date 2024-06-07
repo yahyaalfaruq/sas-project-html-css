@@ -1,0 +1,251 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(34, 34, 223);
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.welcome {
+    text-align: center;
+    padding-bottom: 160px;
+}
+
+.welcome > button {
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 15px 22px;
+    border-radius: 16px;
+}
+
+header > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header div > img {
+    width: 90%;
+}
+
+.akses {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.bonus {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.img-bonus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bonus1 {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    width: 80%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: black;
+    padding: 20px;
+}
+
+.bonus1 > button {
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+.bonus2 {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    width: 80%;
+    border-radius: 8px;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.bonus2 > button {
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .watsap {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    width: 80%;
+    border-radius: 8px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+.contact .tele {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    width: 80%;
+    border-radius: 8px;
+    padding: 10px 30px;
+    color: black;
+}
+
+.contact .tele > img {
+    width: 26%;
+}
+
+.teks-footer {
+    padding-bottom: 10px;
+}
+
+.teks-footer .icon-teks > i {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+hr {
+    width: 80%;
+}
+
+@media(min-width: 960px) {
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome > h1 {
+        width: 50%;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    header > div {
+        width: 30%;
+    }
+
+    .bonus1 .teks-bonus1 {
+        display: flex;
+        text-align: left;
+        padding-bottom: 8px;
+    }
+
+    .bonus-product1 {
+        padding-left: 10px;
+    }
+
+    .bonus-product2 {
+        padding-left: 10px;
+    }
+
+    .bonus2 .teks-bonus2 {
+        display: flex;
+        text-align: left;
+        padding-bottom: 8px;
+    }
+
+    .bonus1 {
+        margin-right: 20px;
+        width: 30%;
+    }
+
+    .bonus2 {
+        width: 30%;
+    }
+
+    .img-bonus {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact {
+        flex-direction: row;
+    }
+
+    .contact .watsap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-right: 20px;
+    }
+
+    .contact .tele {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .teks-footer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .jhon {
+        width: 50%;
+        text-align: right;
+    }
+
+    .icon-teks {
+        width: 50%;
+        text-align: left;
+    }
+}
