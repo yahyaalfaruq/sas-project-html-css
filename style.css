@@ -1,10 +1,14 @@
+* {
+    background: url(./asset/bg-header.png);
+}
+
 body {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     background-color: rgb(34, 34, 223);
     font-family: "Poppins", sans-serif;
     color: white;
-    margin: 0;
-    padding: 0;
 }
 
 .container {
@@ -22,14 +26,14 @@ body {
 
 .welcome {
     text-align: center;
-    padding-bottom: 160px;
+    padding-bottom: 80px;
 }
 
 .welcome > button {
     color: white;
     background-color: orange;
     border: none;
-    padding: 15px 22px;
+    padding: 13px 28px;
     border-radius: 16px;
 }
 
@@ -46,7 +50,12 @@ header div > img {
 
 .akses {
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.akses > p {
+    padding-bottom: 20px;
 }
 
 .bonus {
@@ -55,7 +64,11 @@ header div > img {
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
+}
+
+.bonus > p {
+    padding-bottom: 20px;
 }
 
 .img-bonus {
@@ -81,6 +94,7 @@ header div > img {
     border: none;
     padding: 10px 50px;
     border-radius: 20px;
+    width: 100%;
 }
 
 .bonus2 {
@@ -99,6 +113,7 @@ header div > img {
     border: none;
     padding: 10px 50px;
     border-radius: 20px;
+    width: 100%;
 }
 
 footer {
@@ -109,11 +124,16 @@ footer {
     align-items: center;
 }
 
+.footer > p {
+    padding-bottom: 20px;
+}
+
 .contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .contact .watsap {
@@ -126,7 +146,6 @@ footer {
     color: black;
 }
 
-
 .contact .tele {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     background-color: white;
@@ -136,12 +155,8 @@ footer {
     color: black;
 }
 
-.contact .tele > img {
-    width: 26%;
-}
-
 .teks-footer {
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 }
 
 .teks-footer .icon-teks > i {
@@ -151,7 +166,12 @@ footer {
 }
 
 hr {
-    width: 80%;
+    width: 100%;
+}
+
+.p {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 @media(min-width: 960px) {
@@ -163,7 +183,8 @@ hr {
     }
 
     .welcome > h1 {
-        width: 50%;
+        font-size: 35px;
+        width: 60%;
     }
 
     header {
@@ -222,14 +243,27 @@ hr {
         align-items: center;
         gap: 10px;
         margin-right: 20px;
+        width: 50%;
+        text-align: left;
+        width: 30%;
+    }
+
+    .contact .watsap > img {
+        width: 15%;
     }
 
     .contact .tele {
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: left;
         gap: 10px;
         margin-bottom: 20px;
+        width: 30%;
+    }
+    
+    .contact .tele > img {
+        width: 15%;
     }
 
     .teks-footer {
